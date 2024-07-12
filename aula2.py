@@ -10,7 +10,7 @@ new_a = a
 a = b
 b = new_a
 print("A = %.5f" %a)
-print("A = %.5f" %a)
+print("B = %.5f" %b)
 
 salario_atual = 800
 aumento = (15.8 / 100) * salario_atual
