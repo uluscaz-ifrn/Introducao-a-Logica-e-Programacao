@@ -3,7 +3,7 @@
 valor1 = float(input("Digite o primeiro valor: "))
 valor2 = float(input("Digite o segundo valor: "))
 media = (valor1+valor2)/2
-print(media)
+print("A media é %.2f" % media)
 """ ""
 
 #Construa um programa que calcula o novo salário de um funcionário. O usuário deverá informar o
