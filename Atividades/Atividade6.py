@@ -1,17 +1,13 @@
-1 = 10
-2 = 18
-3 = 23
-4 = 28
-5 = 31
-
-preco_categoria = int(input("Informe a categoria do produto: "))
-if preco_categoria == 1:
-  print(f"O preço do produto é R$ {1}")
-elif preco_categoria == 2
-  print(f"O preço do produto é R$ {2}")
-elif preco_categoria == 3
-print(f"O preço do produto é R$ {3}")
-elif preco_categoria == 4
-print(f"O preço do produto é R$ {4}")
-elif preco_categoria == 5
-print(f"O preço do produto é R$ {5}")
+categoria = int(input("Informe a categoria do produto: "))
+preco = 0
+if categoria == 1:
+  preco = 10
+if categoria == 2:
+  preco = 18
+if categoria == 3:
+  preco = 23
+if categoria == 4:
+  preco = 26
+if categoria == 5:
+  preco = 31
+print("O preço do produto é: R$", preco)
